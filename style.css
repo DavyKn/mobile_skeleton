@@ -1,0 +1,158 @@
+body{
+  margin:0;
+  padding: 0;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 52px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  padding-left: 10px;
+
+}
+
+section{
+  min-height: 100vh;
+  max-width: 28em;
+  margin:0 auto;
+  border-style: solid;
+  border-color: black;
+  background-color: aquamarine;
+}
+
+.nav_bar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;   
+}
+
+.logo{
+  padding-right: 10em;
+  font-weight: 500;
+  font-size: 18px; 
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.body_section{
+  display: flex;
+  flex-direction: column;
+}
+
+.text{
+  text-align: center;
+}
+
+.text h1{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0.3700000047683716px;
+  color: #7D73FC;    
+}
+
+.text h2{
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44px;
+  color: #EDECFF;
+}
+
+.text h4{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #C8C8D4;    
+}
+
+.languages_menu{
+  display: flex;
+  justify-content: space-evenly; 
+}
+
+.heading{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em; 
+  color: #9490FF;  
+}
+
+.languages_menu li{
+  list-style: none;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.social_media{
+  margin: 10px auto;
+}
+
+.work{
+  display: flex;
+  justify-content: center;
+}
+
+.empty_box{
+  width: 26em;
+  height: 26em;
+  margin: 10px auto;
+  background-color: white;
+}
+
+.lang_text{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.button{
+  margin: 10px;
+  width: 8em;
+  height: 4em;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact h2{
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+  color: #9390FF;   
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-content:space-between;
+}
+
+
+
+
